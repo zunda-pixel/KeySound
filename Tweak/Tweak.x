@@ -23,12 +23,12 @@
 		NSArray *soundFileName = [NSArray arrayWithObjects:@"bruhSound.mp3", @"bruhSound.mp3", @"bruhSound.mp3",nil];
 
 		//設定ファイルから選択した音を検出
-		int selectedSoundNumber	 			= [selectedSound intValue];
+		int selectedSoundNumber	 		= [selectedSound intValue];
 
-		NSString* defaultFilePath 			= @"/Library/Application Support/KeySound/"
-		NSString* selectedSoundFile			= [soundFileName objectAtIndex:selectedSoundNumber];
+		NSString* defaultFilePath 		= @"/Library/Application Support/KeySound/"
+		NSString* selectedSoundFile		= [soundFileName objectAtIndex:selectedSoundNumber];
 		NSString* generatedSoundFilePath	= [NSString stringWithFormat:@"%@%@",defaultFilePath, selectedSoundFile]
-		NSURL* generatedFileURL		 		= [NSURL fileURLWithPath:generatedSoundFilePath];
+		NSURL* generatedFileURL		 	= [NSURL fileURLWithPath:generatedSoundFilePath];
 
 		// Init the KSPlayer, set its volume
 		self.KSPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:bruhFileURL error:nil];
