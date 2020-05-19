@@ -47,11 +47,6 @@
     [t setArguments:[NSArray arrayWithObjects:@"backboardd", nil]];
     [t launch];
 }
-
--(IBAction)twitterEsquilli {
-    NSURL *URL = [NSURL URLWithString: @"https://github.com/ShyMemoriees"];
-    [[UIApplication sharedApplication] openURL:URL options:@{} completionHandler:nil];
-}
 @end
 
 
