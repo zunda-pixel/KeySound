@@ -1,6 +1,6 @@
 Package: com.zunda.keysound
 Name: KeySound
-Depends: mobilesubstrate, ws.hbang.common
+Depends: mobilesubstrate
 Version: 1.0
 Architecture: iphoneos-arm
 Description: Change Keyboard Sound
@@ -8,5 +8,5 @@ Maintainer: zunda <zunda.pixel@gmail.com>
 Author: zunda <zunda.pixel@gmail.com> 
 Section: Tweaks
 Depiction: https://twitter.com/zunda_pixel
-SileoDepiction: https://repo.shymemoriees.me/depictions/tck/tck.json
+SileoDepiction: https://json
 Icon: https://pbs.twimg.com/profile_images/974322170309390336/tY8HZIhk_400x400.jpg
