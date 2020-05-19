@@ -55,9 +55,6 @@
 %ctor {
     pfs = [[HBPreferences alloc] initWithIdentifier:@"com.zunda.keysoundprefs"];
 
-    [pfs registerBool:&enabled default:YES forKey:@"Enabled"];
-	[pfs registerObject:&selectedßSound default:@"0" forKey:@"Sound"];
-
-    if(enabled)
-    	%init(Tick);
+    //[pfs registerBool:&enabled default:YES forKey:@"Enabled"];
+    [pfs registerObject:&selectedSound default:@"0" forKey:@"Sound"];
 }
